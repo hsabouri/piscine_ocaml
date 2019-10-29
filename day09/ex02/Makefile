@@ -1,0 +1,6 @@
+RESULT = main
+SOURCES = \
+	calc.ml
+
+OCAMLMAKEFILE = ~/.opam/default/lib/ocaml-makefile/OCamlMakefile
+include $(OCAMLMAKEFILE)
